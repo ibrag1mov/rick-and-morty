@@ -43,7 +43,9 @@ export const Character = () =>{
                                             key={item.id}
                                             image = {item.image}
                                             name = {item.name}
-                                            location = {item.location.name}/>
+                                            location = {item.location.name}
+                                            status = {item.status}
+                                            />
                                     ))
                                 }
                             </div>

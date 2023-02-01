@@ -7,7 +7,7 @@ export const Search = ({ setSearch, setActivePage }) =>{
                 setActivePage(1);
                 setSearch(evt.target.value)
             }}
-            className="form-control w-50 mx-auto mb-5" 
+            className="form-control w-50 mx-auto mb-5 rounded-pill" 
             placeholder="Search..." 
             type={'search'}
         />
